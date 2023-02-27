@@ -21,7 +21,7 @@ route.get('/:book/section/:section',async( req , res)=>{
     try{
         const book = req.params.book
         const section = parseInt(req.params.section)
-        const books = client.db(process.env.MONGO_DB_NAME).collection(book).find({"reference.book": section})
+        const books = client.db(process.env.MONGO_DB_NAME).collection(book).find({"reference.book": section}).project({_id: 0})
         const ahadiths = await books.toArray()
         res.status(201).send(ahadiths)
     }catch(e){

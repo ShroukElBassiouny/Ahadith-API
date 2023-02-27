@@ -25,7 +25,7 @@ route.get('/:version/home',async( req , res)=>{
 route.get('/:bookName',async( req , res)=>{
     try{
         const bookName = req.params.bookName
-        const book = client.db(process.env.MONGO_DB_NAME).collection(bookName).find()
+        const book = client.db(process.env.MONGO_DB_NAME).collection(bookName).find().project({_id: 0})
         const books = await book.toArray()
         res.status(201).send(books)
     }catch(e){
