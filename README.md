@@ -8,6 +8,10 @@ A NodeJS API with a remote database which is allowed users to get all Ahadith in
 - "Sunan an Nasai
 - "Jami At Tirmidhi
 ## URL: https://ahadith-api.onrender.com 
+## Features:
+- (Arabic / English) version
+- Show Random hadith 
+- Show all ahadith about specific subject
 ## Tools 
 hadith API uses several tools to work properly:
 - Express node.js web application framework
@@ -45,7 +49,7 @@ start mongoDBCompass and choose connect DB:
 mongodb+srv://Ahadith:123456789Shr@cluster0.qxvkzqw.mongodb.net/Ahadith
 ```
 - click connect and save
-
+## Dataset from [https://github.com/fawazahmed0/hadith-api/tree/1/editions](here) and customized
 ## to build node_modules:
 ```sh
 npm i
