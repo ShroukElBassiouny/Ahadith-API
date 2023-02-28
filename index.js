@@ -8,9 +8,11 @@ app.use(express.json())
 app.use(booksRoute)
 app.use(sectionsRoute)
 
+app.get("/",(req,res)=>{
+    res.status(200).send("Ahadith API")
+})
 app.listen(port,()=>{
     console.log('Sever is up on port', port)
 })
 
-module.exports= app
 
