@@ -49,7 +49,7 @@ start mongoDBCompass and choose connect DB:
 mongodb+srv://Ahadith:123456789Shr@cluster0.qxvkzqw.mongodb.net/Ahadith
 ```
 - click connect and save
-## Database from [here](https://github.com/fawazahmed0/hadith-api/tree/1/editions) and customized
+## Dataset from [here](https://github.com/fawazahmed0/hadith-api/tree/1/editions) and customized
 ## to build node_modules:
 ```sh
 npm i
