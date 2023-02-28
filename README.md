@@ -1,12 +1,12 @@
 ﻿# Ahadith API
 A NodeJS API with a remote database which is allowed users to get all Ahadith in two versions (Arabic / English) and deployed to render.com from 7 books:
 - Sunan Abu Dawud
-- "Sahih al Bukhari
-- "Sunan Ibn Majah
-- "Muwatta Malik
-- "Sahih Muslim
-- "Sunan an Nasai
-- "Jami At Tirmidhi
+- Sahih al Bukhari
+- Sunan Ibn Majah
+- Muwatta Malik
+- Sahih Muslim
+- Sunan an Nasai
+- Jami At Tirmidhi
 ## URL: https://ahadith-api.onrender.com 
 ## Features:
 - (Arabic / English) version
