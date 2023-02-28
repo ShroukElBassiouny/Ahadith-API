@@ -1,5 +1,5 @@
 ﻿# Ahadith API
-A NodeJS API with a remote database which is allowed users to get all Ahadith from 7 books:
+A NodeJS API with a remote database which is allowed users to get all Ahadith in two versions (Arabic / English) and deployed to render.com from 7 books:
 - Sunan Abu Dawud
 - "Sahih al Bukhari
 - "Sunan Ibn Majah
@@ -7,7 +7,6 @@ A NodeJS API with a remote database which is allowed users to get all Ahadith fr
 - "Sahih Muslim
 - "Sunan an Nasai
 - "Jami At Tirmidhi
-in two versions (Arabic / English) and deployed to render.com
 ## URL: https://ahadith-api.onrender.com 
 ## Tools 
 hadith API uses several tools to work properly:
@@ -20,7 +19,7 @@ hadith API uses several tools to work properly:
 | Method   | URL                                      | Description                              |
 | -------- | ---------------------------------------- | ---------------------------------------- |
 | `GET`    | `/ara/home` | Home page |
-| `GET`   | `/:bookName` | Show All Ahadith of book by it's name:(ara-abudawud - ara-bukhari - ara-ibnmajah - ara-malik - ara-muslim - ara-nasai - ara-tirmidhi ) |
+| `GET`   | `/:bookName` | Show All Ahadith of book by it's name: (ara-abudawud - ara-bukhari - ara-ibnmajah - ara-malik - ara-muslim - ara-nasai - ara-tirmidhi ) |
 | `GET`    | `/ara/random` | Show random hadith |
 | `GET`  | `/:bookName/sections` |Show All sections of book by it's name |
 | `GET`   | `/:book/section/:section` | Show All Ahadith of section in book by book name and number of section |
@@ -28,7 +27,7 @@ hadith API uses several tools to work properly:
 | Method   | URL                                      | Description                              |
 | -------- | ---------------------------------------- | ---------------------------------------- |
 | `GET`    | `/eng/home` | Home page |
-| `GET`   | `/:bookName` | Show All Ahadith of book by it's name:(eng-abudawud - eng-bukhari - eng-ibnmajah - eng-malik - eng-muslim - eng-nasai - eng-tirmidhi ) |
+| `GET`   | `/:bookName` | Show All Ahadith of book by it's name: (eng-abudawud - eng-bukhari - eng-ibnmajah - eng-malik - eng-muslim - eng-nasai - eng-tirmidhi ) |
 | `GET`    | `/eng/random` | Show random hadith |
 | `GET`  | `/:bookName/sections` |Show All sections of book by it's name |
 | `GET`   | `/:book/section/:section` | Show All Ahadith of section in book by book name and number of section |
