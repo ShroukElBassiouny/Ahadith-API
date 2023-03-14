@@ -1,0 +1,24 @@
+[
+    {"version" : "ara" ,
+    "books": {
+      "1" : "سنن أبو داوود" ,
+      "2" : "صحيح البخاري" ,
+      "3" : "سنن ابن ماجة" ,
+      "4" : " موطأ مالك",
+      "5" : "صحيح مسلم",
+      "6" : "سنن النسائي" ,
+      "7" : "جامع الترمذي"}
+    },
+   {
+    "version" : "eng" ,
+    "books":{
+           " 1" : "Sunan Abu Dawud" ,
+            "2" : "Sahih al Bukhari" ,
+            "3" : "Sunan Ibn Majah" ,
+            "4" : "Muwatta Malik",
+            "5": "Sahih Muslim",
+            "6" : "Sunan an Nasai" ,
+            "7" : "Jami At Tirmidhi"
+          }
+    }
+]
